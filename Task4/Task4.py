@@ -1,9 +1,9 @@
+import sys
 
 
-with open('D:\inputTask4.txt', 'r') as f:
+with open(str(sys.argv[1]), 'r') as f:
     file = f.read().split("\n")
 a = [int(x) for x in file]
-
 
 
 
